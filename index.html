@@ -25,7 +25,7 @@
 </head>
 
 <body class="font-lato">
-    <header class="container mx-auto">
+    <header class="container mx-auto ">
         <!-- Nav Section Start -->
         <nav class="md:bg-[#F85559] rounded-full">
             <div class="flex items-center p-4">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="flex-1 flex items-center justify-end md:justify-center">
-                    <div class="dropdown md:hidden md:text-white ms-4 relative">
+                    <div class="dropdown md:hidden md:text-white ms-4 relative z-10">
                         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -54,8 +54,8 @@
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-600 rounded-box right-1 w-32">
-                            <div class=" rounded-xl">
+                            class="menu menu-sm dropdown-content mt-3 relative z-50 p-2 shadow bg-base-600 rounded-box right-1 w-32">
+                            <div class=" rounded-xl  bg-gray-100">
                                 <li><a>Home</a></li>
                                 <li><a>About Us</a></li>
                                 <li><a>Shop</a></li>
@@ -551,7 +551,7 @@
         </section>
 
         <!-- Team Section Start  -->
-        <section class="bg-[url('images/team.png')] bg-cover bg-center  m-4 rounded-lg text-white">
+        <section class="bg-[url('images/team.png')] bg-cover bg-center  m-4 rounded-lg text-white ">
             <div class="p-4 text-center">
                 <h3 class="font-extrabold text-xl md:text-5xl">
                     Meet the team section
@@ -562,7 +562,7 @@
             </div>
             <div class="flex flex-col md:flex-row items-center justify-around">
                 <div class="flex flex-col justify-center items-center my-4 shadow-2xl rounded-xl">
-                    <div class="my-2">
+                    <div class="my-2 rounded-full border-2">
                         <img src="images/member1.png" alt="">
                     </div>
                     <div class="my-2 text-center">
@@ -577,7 +577,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col justify-center items-center my-4 shadow-2xl rounded-xl">
-                    <div class="my-2">
+                    <div class="my-2 rounded-full border-2">
                         <img src="images/member2.png" alt="">
                     </div>
                     <div class="my-2 text-center">
@@ -592,7 +592,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col justify-center items-center my-4 shadow-2xl rounded-xl">
-                    <div class="my-2">
+                    <div class="my-2 rounded-full border-2">
                         <img src="images/member3.png" alt="">
                     </div>
                     <div class="my-2 text-center">
@@ -607,7 +607,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col justify-center items-center my-4 shadow-2xl rounded-xl">
-                    <div class="my-2">
+                    <div class="my-2 rounded-full border-2">
                         <img src="images/member4.png" alt="">
                     </div>
                     <div class="my-2 text-center">
@@ -716,6 +716,7 @@
 
         </section>
         <!-- Support Section End -->
+
     </main>
     <footer class="flex flex-col items-center justify-center my-10 p-10 md:p-20 bg-black  text-white rounded">
         <div class="flex items-center justify-center">
